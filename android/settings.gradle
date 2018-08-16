@@ -1,0 +1,5 @@
+rootProject.name = 'videoplayer'
+include ':@remobile_react-native-video'
+project(':@remobile_react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/@remobile/react-native-video/android')
+
+include ':app'
